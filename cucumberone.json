@@ -1,0 +1,186 @@
+[
+{
+"line": 1,
+"elements": [
+{
+"before": [
+{
+"result": {
+"duration": 32102794905,
+"status": "passed"
+},
+"match": {
+"location": "StepDefinitions.startUp()"
+}
+}
+],
+"line": 36,
+"name": "Verify Guest Profile login and Select Police Station appears on Map @lancaster",
+"description": "",
+"id": "login-and-switching-profiles-for-lancaster;verify-guest-profile-login-and-select-police-station-appears-on-map-@lancaster;;2",
+"after": [
+{
+"result": {
+"duration": 669218730,
+"status": "passed"
+},
+"match": {
+"location": "StepDefinitions.tearDown()"
+}
+}
+],
+"type": "scenario",
+"keyword": "Scenario Outline",
+"steps": [
+{
+"result": {
+"duration": 105139080,
+"status": "passed"
+},
+"line": 27,
+"name": "I am on Lancaster App",
+"match": {
+"location": "StepDefinitions.i_am_on_Lancaster_App()"
+},
+"keyword": "Given "
+},
+{
+"result": {
+"duration": 9488782143,
+"status": "passed"
+},
+"line": 28,
+"name": "I select profile "City, Coast \u0026 Countryside"",
+"match": {
+"arguments": [
+{
+"val": "City, Coast \u0026 Countryside",
+"offset": 18
+}
+],
+"location": "StepDefinitions.i_select_profile(String)"
+},
+"matchedColumns": [
+0
+],
+"keyword": "When "
+},
+{
+"result": {
+"duration": 6552287484,
+"status": "passed"
+},
+"line": 29,
+"name": "I am able to login",
+"match": {
+"location": "StepDefinitions.i_am_able_to_login()"
+},
+"keyword": "Then "
+},
+{
+"result": {
+"duration": 10749743595,
+"status": "passed"
+},
+"line": 30,
+"name": "I can click on Map tile",
+"match": {
+"location": "StepDefinitions.i_can_click_on_Map_tile()"
+},
+"keyword": "And "
+},
+{
+"result": {
+"duration": 3813902194,
+"status": "passed"
+},
+"line": 31,
+"name": "I can search for "Police Stations (2)"",
+"match": {
+"arguments": [
+{
+"val": "Police Stations (2)",
+"offset": 18
+}
+],
+"location": "StepDefinitions.i_can_search_for(String)"
+},
+"matchedColumns": [
+1
+],
+"keyword": "And "
+},
+{
+"result": {
+"duration": 4108974459,
+"status": "passed"
+},
+"line": 32,
+"name": "select the "Lancaster Police Station"",
+"match": {
+"arguments": [
+{
+"val": "Lancaster Police Station",
+"offset": 12
+}
+],
+"location": "StepDefinitions.select_the(String)"
+},
+"matchedColumns": [
+2
+],
+"keyword": "And "
+},
+{
+"result": {
+"duration": 17091734828,
+"status": "passed"
+},
+"line": 33,
+"name": "I can confirm the Map Pin exists with "Lancaster Police Station"",
+"match": {
+"arguments": [
+{
+"val": "Lancaster Police Station",
+"offset": 39
+}
+],
+"location": "StepDefinitions.i_can_confirm_the_Map_Pin_exists_with(String)"
+},
+"matchedColumns": [
+2
+],
+"keyword": "And "
+}
+],
+"tags": [
+{
+"line": 25,
+"name": "@guest"
+},
+{
+"line": 25,
+"name": "@smoke"
+},
+{
+"line": 25,
+"name": "@lancaster"
+},
+{
+"line": 25,
+"name": "@Regression"
+},
+{
+"line": 25,
+"name": "@test"
+}
+]
+}
+],
+"name": "Login and Switching Profiles for Lancaster",
+"description": "",
+"id": "login-and-switching-profiles-for-lancaster",
+"keyword": "Feature",
+"uri": "Lancaster.feature"
+}
+]
